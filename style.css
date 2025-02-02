@@ -9,5 +9,5 @@ h1{
 
 p{
     color: #00FF73;
-    font-family: "consolas";
+    font-family: "consolas", sans-serif;
 }
