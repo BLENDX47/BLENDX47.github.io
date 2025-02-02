@@ -3,11 +3,11 @@ body{
 }
 
 h1{
-    font-family: "consolas", "sans-serif";
     color: aliceblue;
+    font-family: "consolas", "sans-serif";
 }
 
 p{
-    font-family: sans-serif;
     color: #00FF73;
+    font-family: sans-serif;
 }
