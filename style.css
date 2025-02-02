@@ -4,4 +4,10 @@ body{
 
 h1{
     font-family: "consolas", "sans-serif";
+    color: aliceblue;
+}
+
+p{
+    font-family: sans-serif;
+    color: #00FF73;
 }
