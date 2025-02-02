@@ -3,11 +3,11 @@ body{
 }
 
 h1{
-    color: aliceblue;
-    font-family: "consolas", "sans-serif";
+    color: #f0f8ff;
+    font-family: "Press Start 2P" , sans-serif;
 }
 
 p{
     color: #00FF73;
-    font-family: sans-serif;
+    font-family: "consolas";
 }
