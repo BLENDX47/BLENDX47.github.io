@@ -23,6 +23,10 @@ p{
 
 .gradient{
     background-color: linear-gradient (darkslategrey , yellow);
+    -webkit-background-clip: text;
+    color:transparent;
+    display: inline-block;
+
 }
 
 
