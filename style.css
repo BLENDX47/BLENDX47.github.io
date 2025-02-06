@@ -1,13 +1,13 @@
 body{
-    background-color: #000000;
+    background-color:#BBBBBB;
 }
 
 h1{
-    color: #f0f8ff;
-    font-family: 'lucida console';
+    color: #1a2849;
+    font-family:'Titillium' , 'lucida console';
 }
 
 p{
-    color: rgb(0, 255, 217);
+    color: rgb(19, 86, 76);
     font-family: 'consolas';
 }
