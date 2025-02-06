@@ -4,10 +4,10 @@ body{
 
 h1{
     color: #f0f8ff;
-    font-family: "Press Start 2P" , "lucida console";
+    font-family: 'Titillium' , 'Segoe UI',;
 }
 
 p{
-    color: #00FF73;
-    font-family: "consolas", sans-serif;
+    color: rgb(0, 191, 255);
+    font-family: 'consolas', sans-serif;
 }
