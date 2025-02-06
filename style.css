@@ -5,9 +5,10 @@ body{
 h1{
     color: #1a2849;
     font-family: Inter , segoe;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
 }
 
 p{
-    color: rgb(0, 7, 6);
-    font-family: 'consolas';
+    color: rgb(138, 255, 238);
+    font-family: consolas;
 }
