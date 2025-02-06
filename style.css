@@ -3,17 +3,17 @@ body{
 }
 
 h1{
-    color: #ffffff;
-    font-family: inter display;
+    color: #bf0000;
+    font-family: inter;
     font-weight: 700;
     font-size: 96;
 }
 
 p{
+   
     color: rgb(255, 255, 255);
-    font-family: montserrat;
-    font-weight: 700;
-    font-size: 96;
+    font-family: 96px/105.6px montserrat , segoe;
+    font-weight: 700 , 700;
     
 }
 
