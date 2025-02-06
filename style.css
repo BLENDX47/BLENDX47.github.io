@@ -4,11 +4,16 @@ body{
 
 h1{
     color: #ffffff;
-    font-family: 96px Inter design , segoe;
+    font-family: inter display;
+    font-weight: 700;
+    font-size: 96;
 }
 
 p{
     color: rgb(68, 0, 0);
-    font-family: consolas;
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 96;
+    
 }
 
