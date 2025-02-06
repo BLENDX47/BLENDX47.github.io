@@ -1,5 +1,5 @@
 body{
-    background-color:#242424;
+    background-color:#161616;
 }
 
 h1{
@@ -8,15 +8,14 @@ h1{
     font-family: Inter, sans-serif;
     font-weight: 700;
     font-size: 96px;
-    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
-      
 }
 
 p{
    
     color: rgb(255, 255, 255);
-    font-family: montserrat;
-    font-weight: 700 , 700;
+    font-family: Segoe-UI;
+    font-weight: 400;
+    font-size:40;
     
 }
 
