@@ -4,8 +4,10 @@ body{
 
 h1{
 
-
+    color:white;
     font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 96px;
     font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
       
 }
