@@ -4,10 +4,11 @@ body{
 
 h1{
     color: #ffffff;
-    font-family: Inter , segoe;
+    font: 700px/105.6px Inter design;
 }
 
 p{
     color: rgb(138, 255, 238);
     font-family: consolas;
 }
+
