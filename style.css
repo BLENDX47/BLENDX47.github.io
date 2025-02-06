@@ -1,11 +1,10 @@
 body{
-    background-color:#BBBBBB;
+    background-color:#242424;
 }
 
 h1{
-    color: #1a2849;
+    color: #ffffff;
     font-family: Inter , segoe;
-    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
 }
 
 p{
