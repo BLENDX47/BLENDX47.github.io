@@ -3,16 +3,21 @@ body{
 }
 
 h1{
-    color: #bf0000;
-    font-family: inter;
-    font-weight: 700;
-    font-size: 96;
+
+
+        font-family: Inter, sans-serif;
+        font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+      
 }
+
+@supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+  }
 
 p{
    
     color: rgb(255, 255, 255);
-    font-family: 96px/105.6px montserrat , segoe;
+    font-family: montserrat;
     font-weight: 700 , 700;
     
 }
