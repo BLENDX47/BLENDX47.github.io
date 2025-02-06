@@ -4,10 +4,16 @@ body{
 
 h1{
     color: #f0f8ff;
-    font-family: 'Titillium' , 'Segoe UI',;
+    font-family: 'titillium-web-light';
 }
 
 p{
     color: rgb(0, 191, 255);
-    font-family: 'consolas', sans-serif;
+    font-family: 'consolas',;
 }
+
+.titillium-web-light {
+    font-family: "Titillium Web", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
