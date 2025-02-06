@@ -19,6 +19,14 @@ p{
     font-weight: 400;
     font-size:40;
     font-optical-sizing: display;
-    
 }
+
+.gradient{
+    color: linear-gradiant (#0000FF , #FF00FF);
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 96px;
+    font-optical-sizing: display;
+}
+
 
