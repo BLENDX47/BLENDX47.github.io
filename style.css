@@ -4,16 +4,10 @@ body{
 
 h1{
     color: #f0f8ff;
-    font-family: 'titillium-web-light';
+    font-family: 'lucida console';
 }
 
 p{
-    color: rgb(0, 191, 255);
+    color: rgb(0, 255, 217);
     font-family: 'consolas',;
 }
-
-.titillium-web-light {
-    font-family: "Titillium Web", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
