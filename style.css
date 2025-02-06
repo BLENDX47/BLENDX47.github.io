@@ -22,11 +22,7 @@ p{
 }
 
 .gradient{
-    color: linear-gradiant (#0000FF , #FF00FF);
-    font-family: Inter;
-    font-weight: 700;
-    font-size: 96px;
-    font-optical-sizing: display;
+    background-color: linear-gradient (darkslategrey , yellow);
 }
 
 
