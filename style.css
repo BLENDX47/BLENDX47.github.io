@@ -5,17 +5,19 @@ body{
 h1{
 
     color:white;
-    font-family: Inter display, sans-serif;
+    font-family: Inter, sans-serif;
     font-weight: 700;
     font-size: 96px;
+    font-optical-sizing: display;
 }
 
 p{
    
     color: rgb(255, 255, 255);
-    font-family: Segoe-UI;
+    font-family: Inter;
     font-weight: 400;
     font-size:40;
+    font-optical-sizing: text;
     
 }
 
