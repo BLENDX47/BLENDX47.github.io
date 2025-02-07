@@ -30,4 +30,7 @@ p{
 
 }
 
-
+.align{
+    text-align: center;
+    padding: 16px;
+}
