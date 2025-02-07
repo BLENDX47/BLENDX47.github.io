@@ -1,5 +1,5 @@
 body{
-    background-color:#000000;
+    background-color:#121212;
 }
 
 h1{
@@ -18,7 +18,6 @@ p{
     font-family: Inter;
     font-weight: 400;
     font-size:40;
-    font-optical-sizing: display;
 }
 
 .gradient{
@@ -48,6 +47,8 @@ li{
 }
 
 li a{
+    font-family: Inter , sans-serif;
+    font-size: 30;
     display: block;
     color: azure;
     text-align: center;
