@@ -22,7 +22,7 @@ p{
 }
 
 .gradient{
-    background: linear-gradient(270deg, #08AEEA, #4ac6ff);
+    background: linear-gradient(270deg, #0093E9, #80D0C7);
     background-clip: text;
     -webkit-background-clip: text;
     color:transparent;
@@ -44,7 +44,7 @@ ul{
 }
 
 li{
-    float: left;
+    float: right;
 }
 
 li a{
@@ -55,4 +55,8 @@ li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+li a:hover{
+    color: grey;
 }
