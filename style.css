@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(90deg, #121212 , turquoise );
+    background: linear-gradient(180deg, #121212, turquoise);
     margin: 30px;
 }
 
@@ -59,5 +59,5 @@ li a{
 }
 
 li a:hover{
-    color: lightgrey;
+    color: grey;
 }
