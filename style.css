@@ -1,5 +1,6 @@
 body{
-    background: linear-gradient(180deg, #121212, turquoise);
+    background-color: #121212;
+    box-shadow: turquoise;
     margin: 30px;
 }
 
