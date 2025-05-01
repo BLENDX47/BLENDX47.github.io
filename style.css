@@ -1,7 +1,12 @@
-html{
-    background:linear-gradient(180 , #121212 , turquoise);
-    margin: 0px;
-} 
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, blue, red);
+    z-index: -1;
+}
 
 h1{
 
