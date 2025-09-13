@@ -66,3 +66,7 @@ li a{
 li a:hover{
     color: grey;
 }
+
+.home {
+    font-size: 25px;
+}
