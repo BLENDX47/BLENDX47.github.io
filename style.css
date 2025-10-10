@@ -27,7 +27,7 @@ p{
 }
 
 .gradient{
-    background: linear-gradient(270deg, #0093E9, #81D0C7);
+    background: linear-gradient(25deg, #0093E9, #81D0C7);
     background-clip: text;
     -webkit-background-clip: text;
     color:transparent;
