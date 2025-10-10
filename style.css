@@ -4,7 +4,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(180deg, #121212 95%, turquoise 5%);
+    background: linear-gradient(to right, #121212 95%, turquoise 5%);
     z-index: -1;
 }
 
