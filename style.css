@@ -4,7 +4,9 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(#1D4350 95%, #A43931);
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: -1;
 }
 
@@ -13,20 +15,29 @@ h1{
     color:white;
     font-family: Inter, sans-serif;
     font-weight: 700;
-    font-size: 96px;
+    font-size: 70px;
     font-optical-sizing: display;
-    
+    margin-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+    right: 1%;
+    bottom: 196px;
 }
 
-p{
-   
+h2{
     color:white;
-    font-family: Inter;
-    font-weight: 400;
-    font-size:40;
+    font-family: Inter, sans-serif;
+    font-weight: 50;
+    font-size: 50px;
+    margin-top: 0;
+    position: absolute;
+    right: 0.5%;
+    bottom: 91px;
 }
 
 .gradient{
+    font-size: 70px;
+    font-weight: 250;
     background: linear-gradient(25deg, #2C3E50, #FD746C);
     background-clip: text;
     -webkit-background-clip: text;
@@ -35,18 +46,34 @@ p{
 
 }
 
-.align{
-    text-align: left;
-    padding-top: 45px;
-    padding-left: 36px;
+button{
+   
+    color:#FD746C;
+    font-family: Inter;
+    font-weight:50;
+    font-size: 40px;
+    position: absolute;
+    right: 1%;
+    bottom: 48px;
+    text-align: right;
+    background-color: transparent;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #FD746C;
+    border-spacing: 10px;
+    border-width: 1px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 ul{
     list-style-type: none;
-    margin:  36;
+    padding:  36;
     padding: 0;
     overflow: hidden;
-    background-color:#121212;
+    background: none;
 }
 
 li{
@@ -55,18 +82,39 @@ li{
 
 li a{
     font-family: Inter , sans-serif;
-    font-size: 50;
+    font-size: 18px;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition : font-size 0.2s ;
 }
 
-li a:hover{
-    color: grey;
+.gr a:hover {
+  background: linear-gradient(25deg, #2C3E50, #FD746C);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    display: inline-block;
+    font-size: 19px;
 }
+
+ /* li a:hover{
+    background: linear-gradient(25deg, #2C3E50, #FD746C);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    display: inline-block;
+}
+    */
 
 .home {
-    font-size: 32px;
+    font-size: 30px;
+    padding-left: 16px;
+    transition: font-size 0.2s;
+}
+
+a .home:hover {
+  font-size: 34px;
 }
