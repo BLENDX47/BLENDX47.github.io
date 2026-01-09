@@ -1,40 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset = UTF-8>
-    <meta name = "viewport">
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- HTML in your document's head -->
-    <link rel="preconnect" href="https://rsms.me/">
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-</head>
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
 <body>
-    <div class="background"></div>
-    <ul>
-        <li style="float:left"><a href="index.html"><ion-icon name="home" class="home"></ion-icon></a></li>
-        <li class="gr"><a href="downloads.html">blog</a></li>
-        <li class="gr"><a href="socials.html">get in touch</a></li>
-    </ul>
-    <div class = "align">
-        <h1>
-            I Break Stuff
-        </h1>
-          
-        <h2>
-            (Then Make It <span class="gradient">Better</span>)
-        </h2>
-    
-     <a href="socials.html"><button>Get in touch</button></a>
-    
+    <
+    <H1>Chronos</H1>
+
+    <div class="container">
+        <h1 id="current-time"></h1>
     </div>
 
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        let time = document.getElementById("current-time");
 
-   </body>
-
-
+        setInterval(() => {
+            let d = new Date();
+            time.innerHTML = d.toLocaleTimeString([] , {hour : "2-digit", minute : "2-digit" ,hour12 : false});
+        }, 1000);
+        
+    </script>
+</body>
 </html>
