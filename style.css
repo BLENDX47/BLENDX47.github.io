@@ -4,7 +4,10 @@ body {
     margin-left: 30px;
     margin-top: 0px;
 }
-
+* {
+    color: #d3d3d3;
+    font-family: inter;
+}
 h1 {
     color: white;
     font-family: inter;
@@ -12,6 +15,13 @@ h1 {
     text-align: left;
     margin: 10px;
     font-size: 2.132vw;
+}
+
+h2 {
+    font-family: montserrat;
+    color: #fff;
+    font-weight: 10;
+    font-size: 1.7vw;
 }
 
 .container {
@@ -31,8 +41,45 @@ h1 {
     transform: translate( -50% , -50%);
     color: white;
     font-family: inter;
-    font-size: 13.326em;
+    font-size: 13.326vw;
     font-weight: 800;
     transform-origin: center;
     
+}
+
+.ph-images-square {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+       
+}
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background:#121212 ;
+}
+
+.sidebar header {
+    font-size: 22px;
+    color: #d3d3d3;
+    text-align: center;
+    line-height: 70px;
+    background: #234;
+    user-select: none;
+}
+
+.sidebar ul a{
+    list-style: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: #d3d3d3;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: #fff;
+    border-bottom: #121212;
 }
