@@ -1,4 +1,4 @@
-body {
+ body {
     background-color: #121212;
     background-image: url(ImagesTweaked/Image1\ tweaked.jpg);
     margin-left: 30px;
@@ -14,7 +14,10 @@ h1 {
     font-weight: 100;
     text-align: left;
     margin: 10px;
-    font-size: 2.132vw;
+    font-size: 3.5vw;
+    position: fixed;
+    top: 2%;
+    left: 2%;
 }
 
 h2 {
@@ -47,39 +50,278 @@ h2 {
     
 }
 
-.ph-images-square {
+/* .ph-images-square {
     position: absolute;
     top: 1%;
     right: 1%;
        
+} */
+
+header {
+  background-color: #121212;
 }
+
 .sidebar {
-    position: fixed;
-    left: 0;
-    width: 250px;
-    height: 100%;
-    background:#121212 ;
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: #12121255; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
 }
 
-.sidebar header {
-    font-size: 22px;
-    color: #d3d3d3;
-    text-align: center;
-    line-height: 70px;
-    background: #234;
-    user-select: none;
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
 }
 
-.sidebar ul a{
-    list-style: none;
-    display: block;
-    height: 100%;
-    width: 100%;
-    line-height: 65px;
-    font-size: 20px;
-    color: #d3d3d3;
-    padding-left: 40px;
-    box-sizing: border-box;
-    border-top: #fff;
-    border-bottom: #121212;
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 1%;
+  right: 6%;
+  font-size: 30px;
+  background-color: #121212;
+  border-radius: 10000em;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  border-radius: 10px;
+
+}
+
+#main {
+    padding: 20px;
+}
+
+header {
+  background-color: transparent;
+  font-size: 33px;
+  font-weight: 200;
+  font-family: inter;
+  position: relative;
+  right: -5%;
+  color: #d3d3d3;
+}
+
+.txt {
+  color: #ffffff;
+  font-family: inter;
+  font-weight: 700;
+  font-size: 18px;
+}
+.i01 {
+  background-image: url(ImagesTweaked/Image1\ tweaked.jpg);
+}
+.i02 {
+  background-image: url(ImagesTweaked/Abstract.jpg);
+}
+.i03 {
+  background-image: url(ImagesTweaked/Aquarium.jpg);
+}
+.i04 {
+  background-image: url(ImagesTweaked/Autumn1.jpg);
+}
+.i05 {
+  background-image: url(ImagesTweaked/arcade.jpg);
+}
+.i016 {
+  background-image: url(ImagesTweaked/Bar.jpg);
+}
+.i07 {
+  background-image: url(ImagesTweaked/Bedroom1.jpg);
+}
+.i08 {
+  background-image: url(ImagesTweaked/Bedroom2.jpg);
+}
+.i09 {
+  background-image: url(ImagesTweaked/Blur.jpg);
+}
+.i10 {
+  background-image: url(ImagesTweaked/Breeze.jpg);
+}
+.i11 {
+  background-image: url(ImagesTweaked/Bridge.jpg);
+}
+.i12 {
+  background-image: url(ImagesTweaked/Brooklyn.jpg);
+}
+.i13 {
+  background-image: url(ImagesTweaked/cafejen.jpg);
+}
+.i14 {
+  background-image: url(ImagesTweaked/car.jpg);
+}
+.i15 {
+  background-image: url(ImagesTweaked/castle.jpg);
+}
+.i16 {
+  background-image: url(ImagesTweaked/Cafe.jpg);
+}
+.i17 {
+  background-image: url(ImagesTweaked/Cafe\ rain.jpg);
+}
+.i18 {
+  background-image: url(ImagesTweaked/Cafe\ street.jpg);
+}
+.i19 {
+  background-image: url(ImagesTweaked/Cherry.jpg);
+}
+.i20 {
+  background-image: url(ImagesTweaked/City.jpg);
+}
+.i21 {
+  background-image: url(ImagesTweaked/Country.jpg);
+}
+.i22 {
+  background-image: url(ImagesTweaked/dunesunset.jpg);
+}
+.i23 {
+  background-image: url(ImagesTweaked/Desert.jpg);
+}
+.i24 {
+  background-image: url(ImagesTweaked/Dot.jpg);
+}
+.i25 {
+  background-image: url(ImagesTweaked/Dune.jpg);
+}
+.i26 {
+  background-image: url(ImagesTweaked/DuneNight.jpg);
+}
+.i27 {
+  background-image: url(ImagesTweaked/Era.jpg);
+}
+.i28 {
+  background-image: url(ImagesTweaked/fireplace.jpg);
+}
+.i29 {
+  background-image: url(ImagesTweaked/forest.jpg);
+}
+.i30 {
+  background-image: url(ImagesTweaked/fuji.jpg);
+}
+.i31 {
+  background-image: url(ImagesTweaked/Field.jpg);
+}
+.i32 {
+  background-image: url(ImagesTweaked/greenhouse.jpg);
+}
+.i33 {
+  background-image: url(ImagesTweaked/hearts.jpg);
+}
+.i34 {
+  background-image: url(ImagesTweaked/hill.jpg);
+}
+.i35 {
+  background-image: url(ImagesTweaked/hills.jpg);
+}
+.i36 {  
+  background-image: url(ImagesTweaked/Heart.jpg);
+}
+.i37 {
+  background-image: url(ImagesTweaked/Island.jpg);
+}
+.i38 {
+  background-image: url(ImagesTweaked/Kitchen.jpg);
+}
+.i39 {
+  background-image: url(ImagesTweaked/lofibedroom.jpg);
+}
+.i40 {
+  background-image: url(ImagesTweaked/Library.jpg);
+}
+.i41 {
+  background-image: url(ImagesTweaked/Library\ morning.jpg);
+}
+.i42 {
+  background-image: url(ImagesTweaked/Livingroom.jpg);
+}
+.i43 {
+  background-image: url(ImagesTweaked/Ocean.jpg);
+}
+.i44 {
+  background-image: url(ImagesTweaked/peak.jpg);
+}
+.i45 {
+  background-image: url(ImagesTweaked/Plane.jpg);
+}
+.i46 {
+  background-image: url(ImagesTweaked/Pumpkins.jpg);
+}
+.i47 {
+  background-image: url(ImagesTweaked/rainystreet.jpg);
+}
+.i48 {
+  background-image: url(ImagesTweaked/river.jpg);
+}
+.i49 {
+  background-image: url(ImagesTweaked/shore.jpg);
+}
+.i50 {
+  background-image: url(ImagesTweaked/streetnight.jpg);
+}
+.i51 {
+  background-image: url(ImagesTweaked/subway.jpg);
+}
+.i52 {
+  background-image: url(ImagesTweaked/Safari.jpg);
+}
+.i53 {
+  background-image: url(ImagesTweaked/Sky.jpg);
+}
+.i54 {
+  background-image: url(ImagesTweaked/Snow.jpg);
+}
+.i55 {
+  background-image: url(ImagesTweaked/Snowstreet.jpg);
+}
+.i56 {
+  background-image: url(ImagesTweaked/Space.jpg);
+}
+.i57 {
+  background-image: url(ImagesTweaked/Street.jpg);
+}
+.i58 {
+  background-image: url(ImagesTweaked/tent.jpg);
+}
+.i59 {
+  background-image: url(ImagesTweaked/Toto.jpg);
+}
+.i60 {
+  background-image: url(ImagesTweaked/underwater.jpg);
+}
+.i61 {
+  background-image: url(ImagesTweaked/z.jpg);
 }
